@@ -1,0 +1,61 @@
+.card{
+    background: rgb(120,101,138);
+    background: linear-gradient(90deg, rgba(120,101,138,1) 0%, rgba(248,177,149,1) 42%, rgba(197,92,125,1) 100%);
+}
+
+@font-face {
+    font-family: 'anuratiregular';
+    src: url('../fonts/anurati-regular-webfont.woff2') format('woff2'),
+         url('../fonts/anurati-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+    font-family: 'anuratiregular';
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 2%;
+    font-size: 4em;
+    
+ 
+    
+    
+}
+
+.header-container{
+    background-color: #F8B195;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: auto 0;
+    text-align: left;
+    margin-bottom: 2%;
+    -webkit-box-shadow: 0 8px 6px -6px rgb(90, 90, 90);
+	   -moz-box-shadow: 0 8px 6px -6px rgb(90, 90, 90);
+            box-shadow: 0 8px 6px -6px rgb(90, 90, 90);
+        
+           
+            
+  
+}
+
+.address{
+    background-color: #F8B195;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: auto 0;
+    text-align: left;
+    margin-bottom: 1%;
+    -webkit-box-shadow: 0 8px 6px -6px rgb(90, 90, 90);
+	   -moz-box-shadow: 0 8px 6px -6px rgb(90, 90, 90);
+            box-shadow: 0 8px 6px -6px rgb(90, 90, 90);
+        
+    
+    
+  
+    
+}
+
