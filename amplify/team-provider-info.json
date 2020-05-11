@@ -1,0 +1,22 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-robofriends-dev-212455-authRole",
+            "UnauthRoleArn": "arn:aws:iam::165321415915:role/amplify-robofriends-dev-212455-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::165321415915:role/amplify-robofriends-dev-212455-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-robofriends-dev-212455-deployment",
+            "UnauthRoleName": "amplify-robofriends-dev-212455-unauthRole",
+            "StackName": "amplify-robofriends-dev-212455",
+            "StackId": "arn:aws:cloudformation:us-east-1:165321415915:stack/amplify-robofriends-dev-212455/12cdf430-88ef-11ea-8cb5-0ab7c9206afb",
+            "AmplifyAppId": "d2k89k3s3wy1on"
+        },
+        "categories": {
+            "auth": {
+                "robofriends39ef3762": {
+                    "hostedUIProviderCreds": "[]"
+                }
+            }
+        }
+    }
+}

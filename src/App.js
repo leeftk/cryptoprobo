@@ -15,10 +15,17 @@ class App extends Component {
         super()
 
         this.state = {
-            robots: robots,
+            robots: [],
             searchfield:''
         }
     }
+
+    componentDidMount(){
+        fetch('').then(response => response.json())
+        .then(user => this.setState({ robots: users })
+        )
+    }
+
     onSearchChange = (event) => {
         this.setState({ searchfield: event.target.value })
         
