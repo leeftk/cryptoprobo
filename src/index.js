@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import 'tachyons'
 import * as serviceWorker from './serviceWorker';
-import './styles/App.css'
-import App from './App'
+import './containers/App.css'
+import App from './containers/App'
 
 
 ReactDOM.render(
