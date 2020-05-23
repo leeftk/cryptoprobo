@@ -1,11 +1,11 @@
 import React from 'react'
-import CardList from './components/CardList.js'
-import { robots } from './robots'
-import SearchBox from './components/SearchBox'
+import CardList from '../components/CardList.js'
+import { robots } from '../robots'
+import SearchBox from '../components/SearchBox'
 import { Component } from 'react'
-import MediaCard from './components/MediaCard'
-import Header from './components/Header'
-
+import MediaCard from '../components/MediaCard'
+import Header from '../components/Header'
+import Scroll from '../components/Scroll'
 
 
 
@@ -21,8 +21,8 @@ class App extends Component {
     }
 
     componentDidMount(){
-        fetch('').then(response => response.json())
-        .then(user => this.setState({ robots: users })
+        fetch('https://jsonplaceholder.typicode.com/users').then(response => response.json())
+        .then(users => this.setState({ robots: users })
         )
     }
 
@@ -40,7 +40,9 @@ class App extends Component {
         <div className='tc bground'> 
             <Header />
             <SearchBox searchChange = {this.onSearchChange}/>
+            <Scroll>
             <CardList robots = { filteredRobots }  />
+            </Scroll>
             
         </div>
      )
